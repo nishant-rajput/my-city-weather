@@ -1,6 +1,9 @@
-
-
 function weatherBallon( cityID ) {
+//Edit the line below with your city-id and api-key and replace the fetch after the comments
+//fetch('https://api.openweathermap.org/data/2.5/weather?id= CITY-ID &appid= API-KEY ')
+
+
+
 	fetch('https://api.openweathermap.org/data/2.5/weather?id=1261481&appid=d19b217fed0cd976b0612b2f0c323503')  
 	.then(function(resp) { return resp.json() }) // Convert data to json
 	.then(function(data) {
